@@ -1,0 +1,136 @@
+.page {
+    color: #212121;
+    background-color: #F5F5F5;
+    }
+li {
+    list-style-type: none;
+}  
+a {
+    text-decoration: none;
+}  
+    /*Голова сторінки  */
+.top {
+    background-color: #FFFFFF;
+    width: 1600px;
+    height: 80px;
+}    
+    /* Назва компанії. Перехід на головну сторінку сайту */
+.blue {
+    color: #2196F3;
+ }    
+.black {
+    color: #000000;
+}
+    /* site-nav */
+.site-nav a {
+   color: #212121;
+}  
+ 
+.site-nav .link:hover {
+    color: #2196F3;
+}
+/*  Перехід на сторінки сайту з формою для листування та з'єднання скайпом*/
+.contact a {
+    color: #757575;
+} 
+
+.contact .link:hover {
+    color: #2196F3;
+}
+/* Банер */
+.banner {
+ background-color: #2F303A;
+ width: 1600px;
+ height: 600px;
+ left: 0px;
+ top: 80px;
+ }
+.banner-text {
+ color: #FFFFFF;
+} 
+/* Кнопка замовлення */
+.order {
+    color: #FFFFFF;
+    background-color: #2196F3;
+} 
+/* Секція переваг */
+.text {
+    color: #757575;
+}
+/* Секція команди */
+.team {
+    background-color: #F5F4FA;
+    width: 1600px;
+    height: 648px;
+}
+/* Сторінка Портфоліо */
+
+/* Блок сортувальних кнопок */
+.sort button {
+    color: #212121;
+    background-color: #F5F4FA;
+    }
+.sort button:hover, 
+.sort button:focus, 
+.sort button:active {
+    color: #FFFFFF;
+    background-color: #2196F3;
+} 
+.sort button .first {
+    width: 73px;
+    height: 38px;
+    left: 476px;
+    top: 178px;
+}
+.sort button .second {
+    width: 125px;
+    height: 38px;
+    left: 557px;
+    top: 178px;
+}
+.sort button .fird {
+    width: 112px;
+    height: 38px;
+    left: 690px;
+    top: 178px;
+}
+.sort button .fourth {
+    width: 103px;
+    height: 38px;
+    left: 810px;
+    top: 178px;
+}
+.sort button .fifth {
+    width: 130px;
+    height: 38px;
+    left: 921px;
+    top: 178px;
+}
+.adress {
+    background-color: #2F303A;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+}
+ .adress .link {
+    color: #FFFFFF;
+}
+.adress .link:hover,
+.adress .link:focus {
+    color: #2196F3;
+}
+
+
+/*Основний колір тексту #212121*/
+/*Вторинний колір тексту #757575 */
+/*Cвітлий колір тексту #FFFFFF */
+/* Колір лого #2196F3,#000000*/
+/* Колір кнопок #F5F4FA/
+/* Колір акценту  /
+
+/* Колір сторінки #F5F5F5;/
+/* Колір навігації #FFFFFF*/
+/* Колір банеру та футеру #2F303A/
+
+/* Колір секції команди #F5F4FA;/

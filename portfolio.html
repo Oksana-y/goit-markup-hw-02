@@ -7,107 +7,106 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
-    <header>  
+<body class="page">
+    <header class="top">  
         <!-- Назва компанії. Перехід на головну сторінку сайту -->
-          <a href="">WebStudio</a>
+          <a href=""><span class="blue">Web</span><span class="black">Studio</a>
           <!-- Перехід на інші сторінки сайту -->
-        <nav>
+        <nav class="site-nav">
         <ul>
-            <li><a href="">Студія</a></li>
-            <li><a href="">Портфоліо</a></li>
-            <li><a href="">Контакти</a></li>
+            <li><a href="" class="link" >Студія</a></li>
+            <li><a href="./portfolio.html" class="link" >Портфоліо</a></li>
+            <li><a href="" class="link" >Контакти</a></li>
         </ul>
         </nav>
         <!-- Перехід на сторінки сайту з формою для листування та з'єднання скайпом -->
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="contact">
+            <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>          
         </header>
 <!-- Унікальний контент сторінки Портфоліо -->
 <main>
-   <!--Кнопки сортування готових проектів -->
-   <section>
-    <ul class="">
-        <li><button type="button">Усі</button></li>
-        <li><button type="button">Веб-сайти</button></li>
-        <li><button type="button">Додатки</button></li>
-        <li><button type="button">Дизайн</button></li>
-        <li><button type="button">Маркетинг</button></li>
+      <section>
+    <!--Кнопки сортування готових проектів -->
+    <ul class="sort button">
+        <li><button type="button" class="first">Усі</button></li>
+        <li><button type="button" class="second">Веб-сайти</button></li>
+        <li><button type="button" class="fird">Додатки</button></li>
+        <li><button type="button" class="fourth">Дизайн</button></li>
+        <li><button type="button" class="fifth">Маркетинг</button></li>
     </ul>
     <!-- Реалізовані проекти компанії-->
     <ul class="prodjects">
         <li>
-            <img src="./images/teh.jpg" alt="Сторінка сайту на дисплеї комп'ютеру">
+            <img src="./images/teh.jpg" alt="Сторінка сайту на дисплеї комп'ютеру" width="370">
             <h3>Технокряк</h3>
-            <p>Веб-сайт</p>
+            <p class="text">Веб-сайт</p>
 
         </li>
         <li>
-            <img src="./images/postrer.jpg" alt="Баскетболисти">
+            <img src="./images/postrer.jpg" alt="Баскетболисти" width="370">
             <h3>Постер New Orlean vs Golden Star</h3>
-            <p>Дизайн</p>
+            <p class="text">Дизайн</p>
 
         </li>
         <li>
-            <img src="./images/restaurant.jpg" alt="Логотип рестарану">
+            <img src="./images/restaurant.jpg" alt="Логотип рестарану" width="370">
             <h3>Ресторан Seafood</h3>
-            <p>Додаток</p>
+            <p class="text">Додаток</p>
 
         </li>
         <li>
-            <img src="./images/prime.jpg" alt="Навушники">
+            <img src="./images/prime.jpg" alt="Навушники" width="370">
             <h3>Проєкт Prime</h3>
-            <p>Маркетинг</p>
+            <p class="text">Маркетинг</p>
 
         </li>
         <li>
-            <img src="./images/boxes.jpg" alt="Дві коробки">
+            <img src="./images/boxes.jpg" alt="Дві коробки" width="370">
             <h3>Проєкт Boxes</h3>
-            <p>Додаток</p>
+            <p class="text">Додаток</p>
 
         </li>
         <li>
-            <img src="./images/inspir.jpg" alt="Монітор">
+            <img src="./images/inspir.jpg" alt="Монітор" width="370">
             <h3>Inspiration has no Borders</h3>
-            <p>Веб-сайт</p>
+            <p class="text">Веб-сайт</p>
 
         </li>
         <li>
-            <img src="./images/edition.jpg" alt="Відкритий журнал з фото">
+            <img src="./images/edition.jpg" alt="Відкритий журнал з фото" width="370">
             <h3>Видання Limited Edition</h3>
-            <p>Дизайн</p>
+            <p class="text">Дизайн</p>
 
         </li>
         <li>
-            <img src="./images/lab.jpg" alt="Паперова етикетка на мотузці">
+            <img src="./images/lab.jpg" alt="Паперова етикетка на мотузці" width="370">
             <h3>Проєкт LAB</h3>
-            <p>Маркетинг</p>
+            <p class="text">Маркетинг</p>
 
-        </li>
+        </li> 
         <li>
-            <img src="./images/business.jpg" alt="Работа за ноутбуком">
+            <img src="./images/business.jpg" alt="Работа за ноутбуком" width="370">
             <h3>Growing Business</h3>
-            <p>Додаток</p>
+            <p class="text">Додаток</p>
 
         </li>
-        
+     
     </ul>
-
    </section>
-   
-</main>
+   </main>
 <!-- Контакти -->
-    <footer>
-        <a href="">WebStudio</a>
-        <address>
-        <ul>
-        <li><a href="https://www.google.com/maps/d/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.42732700000001%2C30.538092&z=17" target="_blank" rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a></li>
-        <li><a href="mailto:info@devstudio.com ">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li> 
-        </ul> 
-    </address>
-    </footer>
+<footer class="adress">
+    <a href=""><span class="blue">Web</span><span class="black">Studio</a>
+    <address class="">
+    <ul>
+    <li><a href="https://www.google.com/maps/d/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ll=50.42732700000001%2C30.538092&z=17" target="_blank" rel="noopener noreferrer" class="link">м. Київ, пр-т Лесі Українки, 26</a></li>
+    <li><a href="mailto:info@devstudio.com " class="link">info@devstudio.com</a></li>
+    <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li> 
+    </ul> 
+</address>
+</footer>
 </body>
 </html>
+
