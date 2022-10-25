@@ -25,7 +25,7 @@
     line-height: 1,14;
     letter-spacing: 0.02em;
   }    
-    /* Logo. Перехід на головну сторінку сайту */
+    /* Logo */
 .logo {
     font-family: 'Raleway';
     font-style: normal;
@@ -59,8 +59,7 @@
 .contact .link:hover,
 .contact .link:focus {
     color: var(--accent-text-color);
-    
-}
+    }
 
 /* Банер */
 .banner {
@@ -176,7 +175,7 @@ h3 {
     color: var(--accent-text-color);
 }
 
-
+/* Кольорова гама */
 /*Основний колір тексту #212121*/
 /*Вторинний колір тексту #757575 */
 /*Cвітлий колір тексту #FFFFFF */
