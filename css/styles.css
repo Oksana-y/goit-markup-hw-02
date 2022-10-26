@@ -27,37 +27,44 @@
   }    
     /* Logo */
 .logo {
+    color: var(--accent-text-color);
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19x;
+    line-height: 1,19;
     letter-spacing: 0.03em;
-    color: var(--accent-text-color);
+    
     text-decoration: none;
  }   
 .logo .black {
     color: #000000;
 }
+
     /* Site-nav */
-.site-nav a {
+.link {
    color:  var(--primary-text-color);
    text-decoration: none;
    }  
- .site-nav .link:hover, 
- .site-nav .link:focus {
+.site-nav .link:hover, 
+.site-nav .link:focus {
     color: var(--accent-text-color);
     }
+.link-active {
+    color: var(--accent-text-color);
+    text-decoration: none;
+     } 
+       
 /*  Перехід на сторінки сайту з формою для листування та з'єднання скайпом*/
-.contact a {
-    color: var(--primary-text-color);
+.contact-link {
+    color: var(--secondary-text-color);
     text-decoration: none;
 } 
 .point {
     list-style-type: none;
 }
-.contact .link:hover,
-.contact .link:focus {
+.contact-link:hover,
+.contact-link:focus {
     color: var(--accent-text-color);
     }
 
@@ -66,12 +73,13 @@
  background-color: #2F303A;
   }
 .banner-text {
- color: var(--white-text-color);
- font-weight: 900;
- font-size: 44px;
- line-height: 1,36x;
- letter-spacing: 0.06em;
- text-align: center;
+color: var(--white-text-color);
+font-weight: 900;
+font-size: 44px;
+line-height:1,36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 } 
 /* Кнопка замовлення */
 .order {
@@ -90,17 +98,19 @@
     display: none;
 }
 /* Для зоголовків одного типу сторінки */
-h2 {
+.text-title {
+    color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1,17;
     text-align: center;
     letter-spacing: 0.03em;
 }
-h3 {
+.advantage {
+    color: var(--primary-text-color);
     font-weight: 700;
     font-size: 14px;
-    line-height: 1,14x;
+    line-height: 1,14;
     letter-spacing: 0.03em;
 }
 .text {
@@ -115,16 +125,19 @@ h3 {
 .team {
     background-color: #F5F4FA;
 }
-.team .name {
+.name {
+    color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1,19;
     letter-spacing: 0.03em;
 }
-.team .text {
+.career {
+   color: var(--secondary-text-color);
    font-weight: 400;
     font-size: 16px;
     line-height: 1,19;
+    letter-spacing: 0.03em
 }
 
 /* Сторінка Портфоліо */
@@ -142,16 +155,22 @@ h3 {
 .sort button:focus, 
 .sort button:active {
     color: var(--white-text-color);
-    background-color: #2196F3;
+    background-color: var(--accent-text-color);
 } 
+.button-active {
+    color: var(--white-text-color);
+    background-color: var(--accent-text-color);
+}
 /* Реалізовані проекти компанії */
 .projects-title {
+   color: var(--primary-text-color);
    font-weight: 700;
    font-size: 18px;
    line-height: 2,0;
    letter-spacing: 0.06em;
 }
 .projects-text {
+   color: var(--secondary-text-color);
    font-weight: 400;
    font-size: 16px;
    line-height: 1,88;
@@ -159,10 +178,13 @@ h3 {
 }
 
 /* Footer */
+.white {
+    color: #FFFFFF;
+}
 .adress {
     background-color: #2F303A;
   }
- .adress .link {
+.adress .link {
     color: var(--white-text-color);
     font-weight: 400;
     font-size: 14px;
@@ -170,10 +192,10 @@ h3 {
     letter-spacing: 0.03em;
     text-decoration: none;
 }
-.adress .link:hover,
+/* .adress .link:hover,
 .adress .link:focus {
     color: var(--accent-text-color);
-}
+} */
 
 /* Кольорова гама */
 /*Основний колір тексту #212121*/
