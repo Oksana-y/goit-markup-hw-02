@@ -195,7 +195,6 @@ text-transform: uppercase;
     letter-spacing: 0.03em;
     text-decoration: none;
     font-style: normal;
-    
 }
 .adress .link:hover,
 .adress .link:focus,
@@ -215,3 +214,4 @@ text-transform: uppercase;
 /* Колір навігації #FFFFFF*/
 /* Колір банеру та футеру #2F303A/
 /* Колір секції команди #F5F4FA;/
+/* Колір контактів футеру rgba(255, 255, 255, 0.6); */
