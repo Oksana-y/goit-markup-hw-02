@@ -23,8 +23,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
-    letter-spacing: 0.02em;
-  }    
+      }    
     /* Logo */
 .logo {
     color: var(--accent-text-color);
@@ -34,7 +33,6 @@
     font-size: 26px;
     line-height: 1,19;
     letter-spacing: 0.03em;
-    
     text-decoration: none;
  }   
 .logo .black {
@@ -152,15 +150,11 @@ text-transform: uppercase;
     letter-spacing: 0.03em;
     }
 .sort button:hover, 
-.sort button:focus, 
-.sort button:active {
+.sort button:focus {
     color: var(--white-text-color);
     background-color: var(--accent-text-color);
 } 
-.button-active {
-    color: var(--white-text-color);
-    background-color: var(--accent-text-color);
-}
+
 /* Реалізовані проекти компанії */
 .projects-title {
    color: var(--primary-text-color);
@@ -191,11 +185,24 @@ text-transform: uppercase;
     line-height: 1,71;
     letter-spacing: 0.03em;
     text-decoration: none;
+    font-style: normal;
 }
-/* .adress .link:hover,
-.adress .link:focus {
+.link-contacts {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
+    
+}
+.adress .link:hover,
+.adress .link:focus,
+.link-contacts:hover,
+.link-contacts:focus {
     color: var(--accent-text-color);
-} */
+}
 
 /* Кольорова гама */
 /*Основний колір тексту #212121*/
